@@ -16,3 +16,8 @@ character but a character may map to itself.
 
 # Note:
 * You may assume both s and t have the same length.
+* if s and t are isomorphic, then t and s must be isomorphic  too.
+
+
+# Problem Encounter
+* An object cannot be compared with a primitive value.
