@@ -1,0 +1,63 @@
+<html>
+    <head>
+    <meta http-equiv=Content-Type  content="text/html; charset=utf8">
+    </head>
+
+    <body>
+    <h1>Majority Element</h1>
+<h2>Error</h2>
+<p>Runtime Error </p>
+<p>Runtime Error Message:  Line 7: java.lang.ArrayIndexOutOfBoundsException: 2</p>
+<p>Last executed input:    [2,2]</p>
+<h2>Submitted Code</h2>
+<pre><code>public class Solution {
+    public int majorityElement(int[] nums) {
+        Arrays.sort(nums);
+        int count=1;
+        int max=0;
+        for (int i=1; i &lt; nums.length; i++) {
+            while (nums[i]==nums[i-1] &amp;&amp; i &lt; nums.length) {
+                count++;
+                i++;
+            }
+            if (count &gt;= nums.length/2) {
+                max = nums[i-1];
+                return 0;
+            }
+            count=1;
+        }
+
+        return max;
+    }
+}
+</code></pre>
+<h2>-------------------------------------------------------------------------</h2>
+<h1>Error</h1>
+<p>Wrong Answer</p>
+<p>Input:  [1]</p>
+<p>Output: 0</p>
+<p>Expected:   1</p>
+<h2>Submitted Code</h2>
+<pre><code>public class Solution {
+    public int majorityElement(int[] nums) {
+        Arrays.sort(nums);
+        int count=1;
+        int max=0;
+        for (int i=1; i &lt; nums.length; i++) {
+            while (i &lt; nums.length &amp;&amp; nums[i]==nums[i-1]) {
+                count++;
+                i++;
+            }
+            if (count &gt; nums.length/2) {
+                max = nums[i-1];
+                return max;
+            }
+            count=1;
+        }
+
+        return max;
+    }
+}
+</code></pre>
+    </body>
+</html>

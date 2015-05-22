@@ -1,0 +1,54 @@
+<html>
+    <head>
+    <meta http-equiv=Content-Type  content="text/html; charset=utf8">
+    </head>
+
+    <body>
+    <h1>Rotate Array Submission Details</h1>
+<h2>Error</h2>
+<p>Runtime Error Message:  Line 7: java.lang.ArrayIndexOutOfBoundsException: 2</p>
+<p>Last executed input:    [1,2], 0</p>
+<h2>Submitted Code</h2>
+<pre><code>public class Solution {
+    public void rotate(int[] nums, int k) {
+        int [] rotatedNum = new int[nums.length];
+        int i=0;
+        int steps = k%(nums.length);
+        for (; i&lt;nums.length-1-steps; i++) {
+            rotatedNum[i]=nums[nums.length-steps+i];
+        }
+        for (; i &lt; nums.length; i++) {
+            rotatedNum[i]=nums[i-steps];
+        }
+        for (int j=0; j &lt; nums.length; j++) {
+            nums[j] = rotatedNum[j];
+        }
+    }
+}
+</code></pre>
+<h2>----------------------------------------------</h2>
+<h2>Error</h2>
+<p>Runtime Error Message:  Line 12: java.lang.ArrayIndexOutOfBoundsException: -1</p>
+<p>Last executed input:    [1,2], 1</p>
+<h2>Submission Code</h2>
+<pre><code>public class Solution {
+    public void rotate(int[] nums, int k) {
+        if (k==0)
+            return;
+        int [] rotatedNum = new int[nums.length];
+        int i=0;
+        int steps = k%(nums.length);
+        for (; i&lt;nums.length-1-steps; i++) {
+            rotatedNum[i]=nums[nums.length-steps+i];
+        }
+        for (; i &lt; nums.length; i++) {
+            rotatedNum[i]=nums[i-steps];
+        }
+        for (int j=0; j &lt; nums.length; j++) {
+            nums[j] = rotatedNum[j];
+        }
+    }
+}
+</code></pre>
+    </body>
+</html>
