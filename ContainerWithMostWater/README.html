@@ -1,0 +1,35 @@
+<html>
+    <head>
+    <meta http-equiv=Content-Type  content="text/html; charset=utf8">
+    </head>
+
+    <body>
+    <h1>Container With Most Water</h1>
+<p>Given n non-negative integers a1, a2, ..., an, where each represents a point at
+coordinate (i, ai). n vertical lines are drawn such that the two endpoints of
+line i is at (i, ai) and (i, 0). Find two lines, which together with x-axis
+forms a container, such that the container contains the most water.</p>
+<h1>Note</h1>
+<ul>
+<li>You may not slant the container.</li>
+</ul>
+<h1>Idea</h1>
+<p>Assume that the leftest line is l1 and the rightest line is ln, then if
+height[1] is less than height[n], then the max area must be between l1 and ln 
+or between l2 and ln. Because for each 2&lt;=i&lt;n, the area between l1 and li must
+be less than  the area between l1 and ln.
+height[1] is greater than height[n], then the max area must be between l1 and ln 
+or between l1 and l(n-1).</p>
+<p>For example,
+<pre></p>
+<pre><code>    |   |    
+    |   |   |
+|   |   |   |
+</code></pre>
+<hr>
+<pre><code>1   2   3   4
+</code></pre>
+<p></pre>
+The area between 1 and 2, 1 and 3 must be less than the area between 1 and 4.</p>
+    </body>
+</html>
