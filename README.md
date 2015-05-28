@@ -5,6 +5,7 @@
 * kth largest element in an array
 * palindrome number
 * roman to integer
+* 3sum
 
 
 # 注意事项
