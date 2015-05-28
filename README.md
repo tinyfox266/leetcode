@@ -1,8 +1,10 @@
-# 需要复习的题
+# 需要复习的题(should be reviewed)
 * min stack
 * single number
 * most water container 
 * kth largest element in an array
+* palindrome number
+* roman to integer
 
 
 # 注意事项
@@ -18,6 +20,9 @@
     * leave
 * list 
     * head is null
+* int
+    * the result is more than Integer.MAX_VALUE 
+    * the result is less than Integer.MIN_VALUE 
 
 # Unsolved Problem
 * [Shortest Palindrome]( ShortestPalindrome/README.md)
