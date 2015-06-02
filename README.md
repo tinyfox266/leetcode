@@ -7,6 +7,7 @@
 * roman to integer
 * 3sum
 * 3sum closest
+* populating next right pointers in each node
 
 
 # 注意事项
