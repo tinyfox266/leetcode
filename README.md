@@ -10,6 +10,7 @@
 * populating next right pointers in each node
 * implement strstr()
 * maximum square
+* word search 2
 
 
 # 注意事项
