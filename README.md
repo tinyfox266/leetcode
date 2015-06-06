@@ -9,6 +9,7 @@
 * 3sum closest
 * populating next right pointers in each node
 * implement strstr()
+* maximum square
 
 
 # 注意事项
