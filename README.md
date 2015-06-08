@@ -12,6 +12,7 @@
 * maximum square
 * word search 2
 * linked list cycle 2
+* word adder
 
 
 # 注意事项
