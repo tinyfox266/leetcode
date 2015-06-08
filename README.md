@@ -11,6 +11,7 @@
 * implement strstr()
 * maximum square
 * word search 2
+* linked list cycle 2
 
 
 # 注意事项
