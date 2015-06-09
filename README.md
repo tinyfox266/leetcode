@@ -36,3 +36,8 @@
 
 # Unsolved Problem
 * [Shortest Palindrome]( ShortestPalindrome/README.md)
+
+# 基本解题思路
+* BFS
+    * Binary Tree Zigzag Level Order Traversal
+    * Populating Next Right Pointers in Each Node II 
