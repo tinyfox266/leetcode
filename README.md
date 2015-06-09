@@ -15,6 +15,7 @@
 * word adder
 * binary search tree iterator
 * recover binary search tree 
+* binary tree postorder traversal
 
 
 # 注意事项
