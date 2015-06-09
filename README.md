@@ -26,7 +26,7 @@
     * array's length is 0
 * tree
     * root is null   
-    * leave
+    * leaf
 * list 
     * head is null
 * int
