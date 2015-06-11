@@ -19,6 +19,7 @@
 * binary tree postorder traversal
 * trapping rain water
 * maximum subarray
+* longest consecutive sequence
 
 
 # 注意事项
