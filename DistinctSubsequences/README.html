@@ -1,0 +1,25 @@
+<html>
+    <head>
+    <meta http-equiv=Content-Type  content="text/html; charset=utf8">
+    </head>
+
+    <body>
+    <h1>Distinct Subsequences</h1>
+<p>Given a string S and a string T, count the number of distinct subsequences of T
+in S.</p>
+<p>A subsequence of a string is a new string which is formed from the original
+string by deleting some (can be none) of the characters without disturbing the
+relative positions of the remaining characters. (ie, "ACE" is a subsequence of
+"ABCDE" while "AEC" is not).</p>
+<h1>Here is an example</h1>
+<p>S = "rabbbit", T = "rabbit"</p>
+<p>Return 3.</p>
+<h1>解读</h1>
+<p>S删除有限个字符转换为T的方法数</p>
+<h1>Note</h1>
+<ul>
+<li>动态规划数组的维度分别为m+1和n+1, 因为i的取值范围为0..m，j
+    的取值范围为0..n</li>
+</ul>
+    </body>
+</html>
