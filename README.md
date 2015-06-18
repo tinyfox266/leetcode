@@ -20,6 +20,8 @@
 * trapping rain water
 * maximum subarray
 * longest consecutive sequence
+* next permutation
+* jump game 2
 
 
 # 注意事项
