@@ -23,6 +23,7 @@
 * next permutation
 * jump game 2
 * median of two sorted arrays
+* n queens 2
 
 
 # 注意事项
