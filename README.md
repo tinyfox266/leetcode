@@ -50,3 +50,12 @@
 * BFS
     * Binary Tree Zigzag Level Order Traversal
     * Populating Next Right Pointers in Each Node II 
+    
+# 经典算法
+* The Boyer-Moore Majority Vote Algorithm 
+    * 找出一个数组中出现次数超过n/2的元素
+    * O(n) 时间复杂度
+    * O(1) 空间复杂度
+    * 讲解http://www.cs.utexas.edu/~moore/best-ideas/mjrty/
+
+
