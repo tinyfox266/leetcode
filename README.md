@@ -24,6 +24,7 @@
 * jump game 2
 * median of two sorted arrays
 * n queens 2
+* longest valid parentheses
 
 
 # 注意事项
