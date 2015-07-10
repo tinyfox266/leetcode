@@ -1,0 +1,38 @@
+<html>
+    <head>
+    <meta http-equiv=Content-Type  content="text/html; charset=utf8">
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    </head>
+
+    <body>
+    <h1>Regular Expression Matching</h1>
+<p>Implement regular expression matching with support for '.' and '*'.</p>
+<ul>
+<li>'.' Matches any single character.</li>
+<li>'*' Matches zero or more of the preceding element.</li>
+</ul>
+<p>The matching should cover the entire input string (not partial).</p>
+<p>The function prototype should be:</p>
+<p>bool isMatch(const char <em>s, const char </em>p)</p>
+<h1>Some examples:</h1>
+<p>isMatch("aa","a") → false</p>
+<p>isMatch("aa","aa") → true</p>
+<p>isMatch("aaa","aa") → false</p>
+<p>isMatch("aa", "a*") → true</p>
+<p>isMatch("aa", ".*") → true</p>
+<p>isMatch("ab", ".*") → true</p>
+<p>isMatch("aab", "c<em>a</em>b") → true</p>
+<h1>Special Cases:</h1>
+<ul>
+<li>p = "ab<em>a</em>c*a" s = "aaa"<ul>
+<li>the substring of p, "b<em>a</em>c*a" matches s</li>
+</ul>
+</li>
+<li>p = "a*a" s = "aaa"<ul>
+<li>the substring of p, "a*a" matches s</li>
+</ul>
+</li>
+</ul>
+<p>So the greedy approach is not appropriate</p>
+    </body>
+</html>
