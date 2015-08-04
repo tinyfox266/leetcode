@@ -35,6 +35,13 @@
 * For string ,"==" and "equals" have different meaning
     * "==" compare reference
     * "equals" compare value
+     
+# 在做题目之前，需要搞清楚的问题
+* 可以无限制分配内存吗？
+* 链表题
+    * 原链表结构可以改变吗？
+* 数组题
+    * 如果是删除数组中的某个元素，需要让数组的length减1吗?
     
 # 边界条件
 * array
